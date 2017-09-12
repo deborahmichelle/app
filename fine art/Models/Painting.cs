@@ -9,9 +9,8 @@ namespace fine_art.Models
     {
         public int ID { get; set; }
         public string paintings { get; set; }
-        public Student [] Students { get; set; }
-        public Remarks [] Remarks { get; set; }
-
-        
+        public Student[] Students { get; set; }
+        public Event[] Events { get; set; }
+        public Remark[] RemarksOnPaintings { get; set; }
     }
 }

@@ -10,9 +10,8 @@ namespace fine_art.Models
         public int ID { get; set; }
         public string Name { get; set; }
         public byte Age { get; set; }
-
-        public Painting [] Paintings { get; set; }
-        
-    
+        public Painting Painting { get; set; }
+        public Event[] Events { get; set; }
+        public Remark[] RemarksOnPainting { get; set; }
     }
 }

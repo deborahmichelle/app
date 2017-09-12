@@ -5,10 +5,10 @@ using System.Web;
 
 namespace fine_art.Models
 {
-    public class Remarks
+    public class Remark
     {
         public int ID { get; set; }
-        public string Remarks { get; set; }
-        public Staff [] RemarksOnPaintings { get; set; }
+        public string rmks { get; set; }
+        public Teacher[] RemarksOnPaintings { get; set; }
     }
 }
